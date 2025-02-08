@@ -9,6 +9,9 @@
   --bgOne: #101017;
   --green: #079211;
   --gray: #808080;
+  --light-dark: #313131;
+  --dark: #050507;
+  --deep-gray: #0a0a0f;
   --light-gray: #313131;
 }
 
@@ -363,3 +366,81 @@
   gap: 20px;
 }
 /* Testimonials end */
+
+/* contact start */
+#contact {
+  background-color: var(--deep-gray);
+  padding: 63px 0;
+  border-left: 10px solid var(--green);
+}
+
+#contact .text-area h2 {
+  font-weight: 700;
+  font-size: 38px;
+  color: #ffffff;
+}
+#contact .text-area h3 {
+  margin-top: 16px;
+  font-weight: 300;
+  font-size: 16px;
+  color: var(--gray);
+}
+
+#contact button {
+  padding: 18px 28px;
+  background-color: var(--green);
+  font-weight: 700;
+  font-size: 18px;
+  color: #ffffff;
+  border: none;
+}
+/* contact end */
+
+/* footer start */
+footer {
+  background-color: var(--dark);
+  padding-top: 48px;
+  padding-bottom: 30px;
+}
+
+footer .left,
+footer .right {
+  width: 50%;
+}
+
+footer .right .op h2 {
+  font-weight: 600;
+  font-size: 20px;
+  color: #ffffff;
+  margin-bottom: 26px;
+}
+footer .right .op ul {
+  list-style-type: none;
+}
+
+footer .right .op ul li {
+  margin-bottom: 20px;
+}
+footer .right .op ul li,
+footer .right .op ul li a {
+  font-weight: 300;
+  font-size: 16px;
+  color: var(--gray);
+  text-decoration: none;
+}
+footer .right .gap {
+  gap: 114px;
+}
+
+footer .bottom h4 {
+  font-weight: 300;
+  font-size: 14px;
+  color: #ffffff;
+}
+
+footer .bottom {
+  margin-top: 68px;
+  padding-top: 26px;
+  border-top: 1px solid var(--light-dark);
+}
+/* footer end */
