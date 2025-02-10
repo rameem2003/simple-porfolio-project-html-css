@@ -48,6 +48,10 @@
 #nav .logo {
   width: 30%;
 }
+
+#nav .toggle{
+  display : none;}
+
 #nav .menu {
   width: 70%;
   gap: 58px;
