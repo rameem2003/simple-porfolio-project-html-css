@@ -22,6 +22,7 @@
   }
 
   #nav .toggle {
+    display: block;
     font-size: 20px;
     color: #ffffff;
   }
@@ -161,6 +162,7 @@
   }
 
   #nav .toggle {
+    display: block;
     font-size: 20px;
     color: #ffffff;
   }
@@ -290,11 +292,11 @@
     flex-direction: row;
   }
   #nav .logo {
-    width: 30%;
+    width: 100%;
   }
 
   #nav .menu {
-    width: 70%;
+    width: 100%;
     justify-content: flex-end;
   }
   #nav .toggle {
@@ -306,6 +308,7 @@
   }
 
   #nav .toggle {
+    display: block;
     font-size: 20px;
     color: #ffffff;
   }
