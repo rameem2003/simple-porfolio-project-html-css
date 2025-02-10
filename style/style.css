@@ -45,12 +45,18 @@
   background-color: var(--bgOne);
 }
 
+#nav .logo {
+  width: 30%;
+}
 #nav .menu {
+  width: 70%;
   gap: 58px;
+  justify-content: flex-end;
 }
 
 #nav .menu ul {
   gap: 38px;
+  list-style-type: none;
 }
 
 #nav .menu ul li a {
